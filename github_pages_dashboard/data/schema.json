@@ -1,0 +1,158 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Project Scratch Stats Schema",
+  "type": "object",
+  "required": [
+    "lastSync",
+    "labels",
+    "driverSeries",
+    "driverFairways"
+  ],
+  "properties": {
+    "lastSync": {
+      "type": "string",
+      "format": "date"
+    },
+    "labels": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "driverFairways": {
+      "type": "number"
+    },
+    "driverSeries": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "sevenDispersion": {
+      "type": "number"
+    },
+    "sevenDispSeries": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "puttsAvg": {
+      "type": "number"
+    },
+    "puttsSeries": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "updownPercent": {
+      "type": "number"
+    },
+    "updownSeries": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "clubLabels": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "clubCarries": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "missCounts": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "rawShots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "hole": {
+            "type": "string"
+          },
+          "club": {
+            "type": "string"
+          },
+          "carry": {
+            "type": "number"
+          },
+          "totalDistance": {
+            "type": "number"
+          },
+          "launch": {
+            "type": "number"
+          },
+          "spin": {
+            "type": "number"
+          },
+          "ballSpeed": {
+            "type": "number"
+          },
+          "clubSpeed": {
+            "type": "number"
+          },
+          "azimuth": {
+            "type": "number"
+          },
+          "missX": {
+            "type": "number"
+          },
+          "missY": {
+            "type": "number"
+          },
+          "videoUrl": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "rounds": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "course": {
+            "type": "string"
+          },
+          "score": {
+            "type": "number"
+          },
+          "fairwaysHit": {
+            "type": "number"
+          },
+          "GIR": {
+            "type": "number"
+          },
+          "putts": {
+            "type": "number"
+          },
+          "penalties": {
+            "type": "number"
+          },
+          "upAndDowns": {
+            "type": "number"
+          }
+        }
+      }
+    }
+  }
+}

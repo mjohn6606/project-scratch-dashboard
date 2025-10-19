@@ -1,0 +1,96 @@
+{
+  "lastSync": "2025-10-18",
+  "labels": [
+    "2025-09-01",
+    "2025-09-08",
+    "2025-09-15",
+    "2025-09-22",
+    "2025-09-29"
+  ],
+  "driverFairways": 80,
+  "driverSeries": [
+    72,
+    78,
+    80,
+    82,
+    80
+  ],
+  "sevenDispersion": 10,
+  "sevenDispSeries": [
+    18,
+    14,
+    13,
+    12,
+    10
+  ],
+  "puttsAvg": 33,
+  "puttsSeries": [
+    36,
+    35,
+    34,
+    33,
+    31
+  ],
+  "updownPercent": 42,
+  "updownSeries": [
+    20,
+    28,
+    32,
+    38,
+    42
+  ],
+  "clubLabels": [
+    "PW",
+    "9i",
+    "8i",
+    "7i",
+    "6i",
+    "5i",
+    "Hybrid",
+    "Driver"
+  ],
+  "clubCarries": [
+    85,
+    105,
+    120,
+    135,
+    150,
+    165,
+    200,
+    250
+  ],
+  "missCounts": [
+    12,
+    48,
+    8
+  ],
+  "rawShots": [
+    {
+      "date": "2025-09-29T10:12:00Z",
+      "hole": "1",
+      "club": "7i",
+      "carry": 135,
+      "totalDistance": 145,
+      "launch": 14.5,
+      "spin": 6200,
+      "ballSpeed": 110,
+      "clubSpeed": 75,
+      "azimuth": 1.2,
+      "missX": 2.3,
+      "missY": -5.1,
+      "videoUrl": "https://youtu.be/example1"
+    }
+  ],
+  "rounds": [
+    {
+      "date": "2025-09-29",
+      "course": "Hillside GC",
+      "score": 98,
+      "fairwaysHit": 9,
+      "GIR": 10,
+      "putts": 34,
+      "penalties": 1,
+      "upAndDowns": 3
+    }
+  ]
+}
